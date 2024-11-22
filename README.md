@@ -51,24 +51,22 @@ Provides helper functions and utilities for the project.
   cd <repository-folder>
 
 ### 2. Install the required dependencies:
+
+**pip install -r requirements.txt**
+
+### 3. **Configurations**
+Configure model parameters and dataset options in the `option/` directory:
+- Modify **`base_options.py`** for shared settings.
+- Modify **`train_options.py`** for training-specific configurations.
+
+### 4. **Training**
+Run the **`train.py`** script to start training:
 ```bash
-pip install -r requirements.txt
-
-### 3. Configurations
-Configure model parameters and dataset options in the option/ directory:
-
-Modify base_options.py for shared settings.
-Modify train_options.py for training-specific configurations.
-
-### 4. Training
-Run the train.py script to start training:
-
- ```bash
 python train.py
 
-or
+Alternatively, parse all the options in a shell script (e.g., bash -> train.sh) and execute:
+./train.sh
 
-parse all the options in bash -> `train.sh` and run `./train.sh`
+# To do: read me for predict.py and push the scripts for merging. 
 
-### 5. Generating New Images
 
