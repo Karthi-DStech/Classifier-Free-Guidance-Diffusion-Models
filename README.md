@@ -1,6 +1,6 @@
 # Classifier Free Guidance - Denoising Diffusion Probabilistic Model
 
-This repository provides an extensible framework for implementing and training generative models, including diffusion models, U-Net architectures, and attention-based mechanisms. The structure is designed to promote scalability, maintainability, and modularity for advanced research and experimentation in deep generative modeling.
+This repository provides an extensible framework for implementing and training generative models, including diffusion models, U-Net architectures, and attention-based mechanisms. The structure is designed to promote scalability, maintainability, and modularity for advanced research and experimentation in deep generative modelling.
 
 **This CFG DDPM implementation supports datasets with resolutions ranging from 32x32 to 256x256 pixels. Ensure that your dataset is added to the repository and update the dataset path in base_options.py before running the scripts.**
 
@@ -50,7 +50,6 @@ Provides helper functions and utilities for the project.
   git clone <repository-url>
   cd <repository-folder>
 
-
 ### 2. **Install the required dependencies: pip install -r requirements.txt**
 
 ### 3. Configurations
@@ -62,4 +61,9 @@ Modify train_options.py for training-specific configurations.
 ### 4. Training
 Run the train.py script to start training:
 
-python train.py or parse all the options in bash.train.sh and run `./train.sh`
+ ```bash
+python train.py
+
+or
+
+parse all the options in bash.train.sh and run `./train.sh`
