@@ -50,7 +50,9 @@ Provides helper functions and utilities for the project.
   git clone <repository-url>
   cd <repository-folder>
 
-### 2. **Install the required dependencies: pip install -r requirements.txt**
+### 2. Install the required dependencies:
+```bash
+pip install -r requirements.txt
 
 ### 3. Configurations
 Configure model parameters and dataset options in the option/ directory:
@@ -66,4 +68,7 @@ python train.py
 
 or
 
-parse all the options in bash.train.sh and run `./train.sh`
+parse all the options in bash -> `train.sh` and run `./train.sh`
+
+### 5. Generating New Images
+
